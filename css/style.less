@@ -1,0 +1,152 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+body {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+}
+a {
+   text-decoration: none!important;
+   outline: 0 !important;
+   color:#000;
+   &:hover{
+      color:#000;
+   }
+   &:focus{
+      color:#000;
+   }
+}
+.row { margin: 0; padding: 0; }
+h1, h2, h3, h4, h5 {
+   margin:0;padding:0;
+   text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+   color: #000;
+}
+p {
+   font-size: 12px;
+   margin:0;
+   color: #000;
+}
+.col-xs-2, .col-xs-3, .col-xs-6, .col-xs-10 {
+   padding: 0;
+}
+
+
+.container {
+   margin: 50px auto;
+   padding: 0;
+   height: auto;
+   min-height: 500px;
+}
+#table_of_tasks {
+   cursor: pointer;
+   font-size: 14px;
+   text-align: center;
+   thead{
+      th {
+         &:first-child{
+            text-align: center;
+         }
+      }
+   }
+   tbody{
+      td {
+         font-size: 12px;
+         height: 55px;
+         &:first-child{
+            text-align: center;
+         }
+         vertical-align: middle;
+      }
+   }
+   button {
+      font-size: 10px;
+   }
+   a{
+      color: #fff;
+      text-decoration: none;
+   }
+   i {
+      margin: 0 10px;
+   }
+   .sortUp {
+      .fa-sort:before {
+          content: "\f0de";
+      }
+   }
+   .sortDown {
+      .fa-sort:before {
+          content: "\f0dd";
+      }
+   }
+}
+
+.btn{
+   width: 100%;
+}
+.green {
+   color:green;
+}
+.orange {
+   color:orange;
+}
+.alert {
+   opacity: 0;
+   display: block;
+   position: absolute;
+   width: 100%;
+   text-align: center;
+   margin: auto;
+   -webkit-transition: all .5s;
+   -moz-transition: all .5s;
+   transition: all .5s;
+}
+#alert_done {
+   width: 466px;
+    margin: -16px auto;
+    vertical-align: middle;
+    height: 50px;
+    line-height: 20px;
+    border: 2px solid #cdcdcd;
+}
+
+.pager {
+    text-align: center;
+    margin: 1em auto;
+   font-size: 18px;
+   width: fit-content;
+   a, b {
+      padding: 0 10px;
+      cursor: pointer;
+   }
+}
+.err {
+    color: red;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

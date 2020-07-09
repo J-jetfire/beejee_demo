@@ -1,0 +1,1 @@
+<div class="alert alert-danger" role="alert" id="alert_error" style="opacity:1;">Вы не можете вносить изменения, так как не авторизованы! <a href="login.php"><span style="font-weight:bold;text-decoration: underline;">Пожалуйста, войдите в свою учётную запись</span></a></div>
