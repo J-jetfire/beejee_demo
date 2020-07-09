@@ -4,7 +4,7 @@
          <th <?=$username_ico?> scope="col" nowrap style="width:200px;"><a href="?page=<?=$page?>&col=username&sort=<?=$sort_col?>">Имя пользователя</a><i class="fas fa-sort"></i></th>
          <th <?=$email_ico?> scope="col" nowrap style="width:200px;"><a href="?page=<?=$page?>&col=email&sort=<?=$sort_col?>">E-mail</a><i class="fas fa-sort"></i></th>
          <th scope="col" nowrap>Текст задачи</th>
-         <th <?=$status_ico?> scope="col" nowrap style="width:60px;"><a href="?page=<?=$page?>&col=status&sort=<?=$sort_col?>">Статус</a><i class="fas fa-sort"></i></th>
+         <th <?=$status_ico?> scope="col" nowrap style="width:100px;"><a href="?page=<?=$page?>&col=status&sort=<?=$sort_col?>">Статус</a><i class="fas fa-sort"></i></th>
          <th style="width:110px;">Отметка</th>
          <?php if ($_SESSION['login']) { ?> <th style="width:50px;"></th> <?php } ?>
       </tr>
